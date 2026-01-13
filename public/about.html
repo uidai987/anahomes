@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BuildCraft Construction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-hard-hat"></i>
+                <span>BuildCraft</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about" class="active">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn btn-primary enquiry-btn" onclick="openEnquiryForm()">Enquire Now</button>
+                <button class="btn btn-outline lets-talk-btn" onclick="openEnquiryForm()">Let's Talk</button>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1>About Us</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>About Us</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Story -->
+    <section class="about-story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <span class="section-tag">Our Story</span>
+                    <h2>Building Excellence Since 2009</h2>
+                    <p>BuildCraft Construction was founded with a simple yet powerful vision: to transform the construction industry through innovation, quality, and unwavering commitment to our clients' dreams.</p>
+                    <p>Over the past 15 years, we have grown from a small local contractor to one of the region's most trusted construction companies. Our journey has been marked by hundreds of successful projects, countless satisfied clients, and a reputation built on integrity and excellence.</p>
+                    <p>Today, we continue to push boundaries, embracing new technologies and sustainable practices while never losing sight of what matters most – delivering exceptional results that exceed expectations.</p>
+                </div>
+                <div class="story-images">
+                    <div class="image-grid">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80" alt="Construction Site">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80" alt="Workers">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&q=80" alt="Building">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Project">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mv-grid">
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To deliver exceptional construction services that transform our clients' visions into reality, while maintaining the highest standards of quality, safety, and sustainability.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the most trusted and innovative construction company, setting industry standards for excellence and creating lasting value for our clients, employees, and communities.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <p>Integrity, Excellence, Innovation, Safety, and Customer Focus form the foundation of everything we do. These values guide our decisions and define who we are.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="about-stats">
+        <div class="stats-overlay"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>15+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>50+</h3>
+                    <p>Expert Team Members</p>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>100%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="our-team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Team</span>
+                <h2>Meet Our Experts</h2>
+                <p>Dedicated professionals committed to delivering excellence in every project</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Team Member">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Robert Johnson</h4>
+                        <span>CEO & Founder</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Team Member">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Sarah Williams</h4>
+                        <span>Chief Architect</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Team Member">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Michael Chen</h4>
+                        <span>Project Manager</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Team Member">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Emily Davis</h4>
+                        <span>Interior Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="core-values">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Core Values</span>
+                <h2>What Drives Us</h2>
+                <p>The principles that guide our work and define our success</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4>Quality First</h4>
+                    <p>We never compromise on quality. Every project receives our full attention and dedication to excellence.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Integrity</h4>
+                    <p>Honesty and transparency are at the core of our business. We build trust through ethical practices.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>We embrace new technologies and methods to deliver better, faster, and more efficient solutions.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h4>Safety</h4>
+                    <p>The safety of our team and clients is paramount. We maintain strict safety protocols on every site.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4>Sustainability</h4>
+                    <p>We are committed to sustainable building practices that protect our environment for future generations.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Teamwork</h4>
+                    <p>Our success is built on collaboration. We work together with our clients and partners to achieve greatness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Certifications</span>
+                <h2>Industry Recognition</h2>
+                <p>Our commitment to excellence is recognized by leading industry organizations</p>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>ISO 9001:2015</h4>
+                    <p>Quality Management</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>OHSAS 18001</h4>
+                    <p>Health & Safety</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-leaf"></i>
+                    <h4>ISO 14001</h4>
+                    <p>Environmental</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-award"></i>
+                    <h4>LEED Certified</h4>
+                    <p>Green Building</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-banner">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's build something amazing together. Contact us today for a free consultation.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" onclick="openEnquiryForm()">Get In Touch</button>
+                    <a href="tel:+1234567890" class="btn btn-outline">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-hard-hat"></i>
+                        <span>BuildCraft</span>
+                    </a>
+                    <p>Building dreams into reality since 2009. We are committed to delivering excellence in every project we undertake.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Residential</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Industrial</a></li>
+                        <li><a href="#">Renovation</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BuildCraft Construction. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enquiry Modal -->
+    <div class="modal-overlay" id="enquiryModal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeEnquiryForm()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Request a Quote</h3>
+                <p>Fill out the form below and we'll get back to you shortly</p>
+            </div>
+            <form id="enquiryForm" onsubmit="submitEnquiry(event)">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="residential">Residential Construction</option>
+                        <option value="commercial">Commercial Construction</option>
+                        <option value="renovation">Renovation</option>
+                        <option value="interior">Interior Design</option>
+                        <option value="industrial">Industrial Construction</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Submit Enquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div class="modal-overlay" id="thankYouModal">
+        <div class="modal thank-you-modal">
+            <button class="modal-close" onclick="closeThankYou()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="thank-you-content">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3>Thank You!</h3>
+                <p>Your enquiry has been submitted successfully. Our team will contact you within 24 hours.</p>
+                <button class="btn btn-primary" onclick="closeThankYou()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" onclick="closeMobileMenu()">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <button class="btn btn-primary btn-full" onclick="openEnquiryForm(); closeMobileMenu();">Enquire Now</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
